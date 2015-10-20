@@ -18,4 +18,4 @@ RUN rm -rf /opt/n2n/
 
 EXPOSE 12345
 
-CMD /usr/sbin/supernode -l 12345 -f 
+CMD ["/usr/sbin/supernode", "-l","12345","-f"]
