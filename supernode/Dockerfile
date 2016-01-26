@@ -1,4 +1,4 @@
-FROM  debian:latest
+FROM  nvucinic/base
 
 MAINTAINER Neven Vucinic neven.vucinic@gmail.com
 
