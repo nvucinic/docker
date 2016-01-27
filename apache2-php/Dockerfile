@@ -9,13 +9,13 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update \ 
     && apt-get install -y apache2 \
-    && php5 \
-    && php5-json
-    && php5-mysql \
-    && php5-xml \
-    && libxml2 \
-    && python-ctypes \
-    && python-ctypeslib \ 
+     php5 \
+     php5-json \
+     php5-mysql \
+     php5-xmlrpc \
+     libxml2 \
+     python-ctypes \
+     python-ctypeslib \ 
     && apt-get clean \ 
     && rm -rf /var/lib/apt/lists/*
 
